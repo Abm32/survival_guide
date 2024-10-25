@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import GuideSection from './components/GuideSection';
+import Footer from './Footer/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="content">
+        <GuideSection title="Survival Basics" description="The essentials for outlasting the undead." />
+        <GuideSection title="Safe Zones" description="Locate secure areas and strongholds." />
+        <GuideSection title="Supply Checklist" description="What you need to stay alive, one day at a time." />
+        <GuideSection title="Zombie Behavior" description="Learn how to predict zombie actions." />
+      </div>
+      <Footer />
     </div>
   );
 }

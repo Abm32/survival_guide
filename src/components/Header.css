@@ -1,0 +1,25 @@
+.header {
+    background: linear-gradient(45deg, #202020, #3c3c3c);
+    padding: 10px 20px;
+    text-align: center;
+    color: #a6e22e;
+    font-size: 2em;
+  }
+  
+  .header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .header nav ul li {
+    margin: 0 15px;
+    color: #e6db74;
+    cursor: pointer;
+  }
+  
+  .header nav ul li:hover {
+    color: #f92672;
+  }
+  
