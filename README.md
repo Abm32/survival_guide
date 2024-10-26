@@ -13,20 +13,21 @@
 - Member 3: Abhijith B - College of Engineering Karunagappally
 
 ### Project Description
-[2-3 lines about what your project does]
+An absurdly essential guide for surviving not just a zombie apocalypse but any random scenario we might imagine—like an alien invasion or an outbreak of sentient toasters!
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+What if, one day, we are faced with the imminent threat of an alien invasion or a zombie apocalypse, and no one knows where to find the nearest canned beans or how to create a forcefield out of household items?
 
 ### The Solution (that nobody asked for)
 In the far future, and in the nearby future and in the present when an apocalypse occurs our opensource guide acts as a escape route for them to refer. More people are welcome to contribute to this futuristic project.😝😝
+
 ## Technical Details
 ### Technologies/Components Used
 For Software:
 - JS,CSS,HTML
 - React js
-- 
-- [Tools used]
+- Material-UI, react-router, Framer Motion
+- VS Code, GitHub
 
 For Hardware:
 - [List main components]
@@ -35,11 +36,18 @@ For Hardware:
 
 ### Implementation
 For Software:
+
 # Installation
-[commands]
+# Clone the repository
+git clone https://github.com/survival-guide/useless-apocalypse.git
+cd useless-apocalypse
+
+# Install dependencies
+npm install
 
 # Run
-[commands]
+# Start the development server
+npm start
 
 ### Project Documentation
 For Software:
