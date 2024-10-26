@@ -1,16 +1,16 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Survival Guide 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Convincing Stars
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Abhimanyu R B - College of Engineering Karunagappally
+- Member 2: Malavika Sunil - College of Engineering Karunagappally
+- Member 3: Abhijith B - College of Engineering Karunagappally
 
 ### Project Description
 [2-3 lines about what your project does]
@@ -19,14 +19,13 @@
 [What ridiculous problem are you solving?]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
+In the far future, and in the nearby future and in the present when an apocalypse occurs our opensource guide acts as a escape route for them to refer. More people are welcome to contribute to this futuristic project.😝😝
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- JS,CSS,HTML
+- React js
+- 
 - [Tools used]
 
 For Hardware:
