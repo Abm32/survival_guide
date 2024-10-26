@@ -1,25 +1,13 @@
+/* src/components/Header.css */
 .header {
-    background: linear-gradient(45deg, #202020, #3c3c3c);
-    padding: 10px 20px;
-    text-align: center;
-    color: #a6e22e;
-    font-size: 2em;
-  }
-  
-  .header nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 10px;
-  }
-  
-  .header nav ul li {
-    margin: 0 15px;
-    color: #e6db74;
-    cursor: pointer;
-  }
-  
-  .header nav ul li:hover {
-    color: #f92672;
-  }
-  
+  background-color: #333;
+  color: #eee;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.7);
+  animation: flicker 1.5s infinite;
+}
+
+.flicker {
+  animation: flicker 1.5s infinite;
+}

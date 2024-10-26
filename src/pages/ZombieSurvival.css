@@ -1,0 +1,8 @@
+/* src/pages/ZombieSurvival.css */
+.zombie-survival {
+    background-image: url('../assets/zombie-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+  }
+  

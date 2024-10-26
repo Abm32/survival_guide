@@ -1,21 +1,31 @@
+// src/App.js
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Header from './components/Header';
-import GuideSection from './components/GuideSection';
 import Footer from './Footer/Footer';
+import ZombieSurvival from './pages/ZombieSurvival';
+import AlienInvasion from './pages/AlienInvasion';
+import NuclearFallout from './pages/NuclearFallout';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div className="content">
-        <GuideSection title="Survival Basics" description="The essentials for outlasting the undead." />
-        <GuideSection title="Safe Zones" description="Locate secure areas and strongholds." />
-        <GuideSection title="Supply Checklist" description="What you need to stay alive, one day at a time." />
-        <GuideSection title="Zombie Behavior" description="Learn how to predict zombie actions." />
+    <Router>
+      <div className="app">
+        <Header />
+        <nav className="navigation">
+          <Link to="/zombie-survival">Zombie Survival</Link>
+          <Link to="/alien-invasion">Alien Invasion</Link>
+          <Link to="/nuclear-fallout">Nuclear Fallout</Link>
+        </nav>
+        <Routes>
+          <Route path="/zombie-survival" element={<ZombieSurvival />} />
+          <Route path="/alien-invasion" element={<AlienInvasion />} />
+          <Route path="/nuclear-fallout" element={<NuclearFallout />} />
+        </Routes>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

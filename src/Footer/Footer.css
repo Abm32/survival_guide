@@ -1,7 +1,8 @@
+/* src/components/Footer.css */
 .footer {
-  background: #202020;
-  color: #75715e;
-  padding: 10px;
+  background-color: #222;
+  color: #aaa;
   text-align: center;
+  padding: 10px;
   font-size: 0.9em;
 }

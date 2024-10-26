@@ -1,32 +1,18 @@
+/* src/components/GuideSection.css */
 .guide-section {
-  background: rgba(50, 50, 50, 0.8);
-  padding: 15px;
-  margin-bottom: 20px;
-  border-left: 4px solid #e6db74;
-  color: #66d9ef;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
 }
 
-.guide-section h2 {
-  color: #f92672;
+.section-title {
+  color: #ff5555;
+  text-shadow: 1px 1px 8px rgba(0, 255, 0, 0.7);
 }
 
-.guide-section p {
-  margin-top: 8px;
-  font-size: 1.1em;
-}
-.guide-section {
-  background: rgba(50, 50, 50, 0.8);
-  padding: 15px;
-  margin-bottom: 20px;
-  border-left: 4px solid #e6db74;
-  color: #66d9ef;
-}
-
-.guide-section h2 {
-  color: #f92672;
-}
-
-.guide-section p {
-  margin-top: 8px;
-  font-size: 1.1em;
+.glitch {
+  animation: glitch 1.3s infinite;
 }

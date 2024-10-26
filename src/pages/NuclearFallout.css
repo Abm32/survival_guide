@@ -1,0 +1,8 @@
+/* src/pages/NuclearFallout.css */
+.nuclear-fallout {
+    background-image: url('../assets/nuclear-bg.jpg');
+    background-size: cover;
+    color: #ffcc00;
+    padding: 30px;
+  }
+  

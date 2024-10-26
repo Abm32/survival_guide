@@ -1,0 +1,8 @@
+/* src/pages/AlienInvasion.css */
+.alien-invasion {
+    background-image: url('../assets/alien_bg.jpg');
+    background-size: cover;
+    color: #00ffcc;
+    padding: 30px;
+  }
+  

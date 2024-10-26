@@ -1,10 +1,11 @@
+// src/components/Footer.js
 import React from 'react';
 import './Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2045 Zombie Apocalypse Survival Guide. Stay prepared, stay alive.</p>
+      <p>© 2024 Apocalypse Survival Guide. Survive Together!</p>
     </footer>
   );
 }
