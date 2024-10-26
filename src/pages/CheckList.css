@@ -1,0 +1,25 @@
+/* src/pages/Checklist.css */
+.checklist {
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 20px;
+    color: #e0e0e0;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  

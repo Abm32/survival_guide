@@ -1,0 +1,25 @@
+/* src/pages/ResourceCalculator.css */
+.resource-calculator {
+    background-color: rgba(10, 10, 10, 0.8);
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  label, .result p {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff4444;
+  }
+  

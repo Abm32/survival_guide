@@ -1,0 +1,26 @@
+/* src/pages/EmergencyBroadcast.css */
+.emergency-broadcast {
+    text-align: center;
+    color: #ff3333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alert-message {
+    font-size: 1.5em;
+    color: yellow;
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  

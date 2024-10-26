@@ -1,0 +1,23 @@
+/* src/pages/EmergencyContacts.css */
+.emergency-contacts {
+    background-color: rgba(10, 10, 10, 0.9);
+    padding: 20px;
+    color: #e0e0e0;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ff3333;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
